@@ -1,0 +1,72 @@
+#calendar {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  border: solid #EE69C6 14px;
+  border-radius: 1em;
+}
+
+#title{
+  color: #9c27b0;
+  font-weight: 800;
+  border-bottom: 3px solid rgb(255, 80, 246);
+  background: rgb(243, 240, 241);
+  padding: 8px 30px;
+}
+
+/****************/
+input {
+  display: none;
+}
+
+
+.fc-content{
+  color: #fff !important;
+}
+
+
+
+#btnCerrar{
+  color:crimson;
+  padding: 5px;
+  background: #8888;
+  border-radius: 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+#btnCerrar:hover{
+  cursor: pointer;
+  background-color: #333;
+}
+
+
+
+.circu{
+  padding: 25px;
+  background: #ccc;
+  border-radius: 50px;
+}
+
+#grupoRadio label:hover{
+  cursor: pointer;
+}
+
+#grupoRadio input[type="radio"]:checked + label {
+  border: 3px solid #ccc !important;  
+}
+
+
+.activado input[type=radio]:checked + label {
+  border: 3px solid #555 !important;  
+}
+
+.fondo{
+  background-image: url("../../img/5.png");
+	background-color: #cccccc;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
