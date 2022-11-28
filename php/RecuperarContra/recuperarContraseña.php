@@ -49,7 +49,7 @@
 					<br>
                     <form action="recuperarContra.php"  name="frmAutentica" method="POST" >
                     	<div class="row justify-content-center">
-	                        <input type="text" name="usuario" placeholder="Usuario" required>
+	                        <input type="text" name="usuario" placeholder="Administrador" required>
 	                        				<div class="mt-1 mb-1"><br></div>
                         </div>
 						<div class="row justify-content-center">
